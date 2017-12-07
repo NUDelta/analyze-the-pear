@@ -1,6 +1,6 @@
 02:05 
 
-s: [reading the problem aloud to herself] okay. so we can like, iterate through the list and find which ones are passing scores.
+s: **reading the problem aloud to herself** okay. so we can like, [iterate through the list and find which ones are passing scores.](./planning_schema.md)
 
 y: are you familiar with the syntax?
 
@@ -16,25 +16,25 @@ s: or if you want to use a for each loop you can be like for var... i think it's
 
 y: ah, yeah, okay
 
+<a href=./planning_schema.md>
 s: and then, lets see, for each loop...
-
 y: so it'd be if var score is greater than 
-
 s: greater than or equal to seventy. should we like add it to a new list?
+</a>
 
 y: yeah, because we need [unintelligible]
 
+<a href=./planning_schema.md>
 s: do you want to make an empty list at the top and then we can add
-
 y: yeah, outside the loop?
-
 s: yeah. 
+</a>
 
 y: is it var?
 
-s: yeah, so it's like var score of score list or something. and then you can just do like empty array. i think that works 
+s: yeah, so it's like var score of score list or something. and [then you can just do like empty array. i think that works](./planning_schema.md)
 
-y: and then we just score list.add 
+y: [and then we just score list.add ](./planning_schema.md)
 
 s: i think it's push? dot push? we can check
 
@@ -46,25 +46,27 @@ a: feel free to use both machines if you'd like, to look things up
 
 s: so javascript add to array, so it's push to add to the end of the array
 
+<a href=./planning_schema.md>
 y: so if scores greater... push, otherwise
-
 s: just like do nothing i guess
-
 y: yeah, do nothing
+</a>
 
 s: okay so then after the for loop completes we'll have all the scores in our list
 
+<a href=./planning_schema.md>
 y: and then we just need to get out of the for loop and then return...
-
 s: like the average
+</a>
 
 y: oh, okay. do we need to go through the new?
 
-s: yeah, add them up and then divide by the number. you can make like a sum variable or something
+s: yeah, [add them up and then divide by the number. you can make like a sum variable or something](./planning_schema.md)
 
+<a href=./planning_schema.md>
 y: yeah. and then i just keep adding...
-
 s: sum plus-equals score. and then after that...
+</a>
 
 y: i need to 
 
@@ -82,17 +84,17 @@ y: do i need...
 
 s: oh, there's no parentheses
 
-y: okay, and then you just return sum average. okay
+y: okay, and [then you just return sum average. okay](./planning_schema.md)
 
 s: 0 out of 7 tests passed. oh got not a number. maybe, do you want to console log the sum average or the sum or something
 
 y: just like this?
 
+<a href=./planning_schema.md>
 s: yeah, and you have to put something in there, so if you want to log the sum or like
-
 y: yeah, we can see sum first
-
 s: do you want to console log score inside here?
+</a>
 
 y: yeah, okay. console...
 
@@ -100,7 +102,7 @@ s: dot log. let's see. um, the console's only printing.. maybe the score list is
 
 y: yeah, yeah, yeah
 
-s: if score is greater than... do you wanna log the score here and see if it's actually... maybe, i don't know if this matters but add a semicolon at the end of like, or like inside the bracket
+s: if score is greater than... do you wanna log the score here and see if it's actually... maybe, i don't know if this matters but [add a semicolon at the end of like, or like inside the bracket](./planning_schema.md)
 
 y: okay, like this?
 
@@ -112,11 +114,11 @@ s: oh, do you think cause it's a string?
 
 y: ah okay. 0, 1, 2... so it's just
 
-s: oh you know what, i think it's actually the index of the array so try doing of instead of in. because i think it's like giving it the index of the array not the actual value
+s: oh you know what, [i think it's actually the index of the array so try doing of instead of in. because i think it's like giving it the index of the array not the actual value](./planning_schema.md)
 
 y: yeah yeah yeah okay
 
-s: and then the same thing too for the second one.
+s: [and then the same thing too for the second one.](./planning_schema.md)
 
 y: yeah yeah yeah
 
@@ -132,9 +134,10 @@ s: if the input's empty then what should it do? because if the list is empty..
 
 y: should it return 0?
 
+<a href=./planning_schema.md>
 s: do you wanna just add a base case
-
 y: yeah, so it's like if 
+</a>
 
 s: scores
 
@@ -146,7 +149,7 @@ y: equals zero
 
 s: yeah, then return 0\. okay, we got one. so all of those are less than the passing score
 
-y: oh, we also need to return 0
+y: oh, [we also need to return 0](./planning_schema.md)
 
 s: you can, maybe after here
 
@@ -172,7 +175,7 @@ s: so like, for 
 
 y: var number
 
-s: yeah. oh actually maybe we need to use a for loop with an i because we want to see if
+s: yeah. oh actually maybe we need to use a [for loop with an i because we want to see if](./planning_schema.md)
 
 y: oh, yeah, that's right
 
@@ -180,11 +183,11 @@ s: yeah, for int i is less than, what is it, nums
 
 y: yeah nums
 
+<a href=./planning_schema.md>
 s: so then if our target is nine for example
-
 y: we can subtract... minus then nums
-
 s: nums of bracket i, yeah
+</a>
 
 y: yeah
 
@@ -192,15 +195,16 @@ s: and that'll be like the value
 
 y: the value we're looking for for the rest of the
 
-s: yeah, so well we can declare this var outside
+s: yeah, so [well we can declare this var outside](./planning_schema.md)
 
 y: var value
 
 s: so that's what we're looking for in the rest of the array
 
+<a href=./planning_schema.md>
 y: and then there'll be another
-
 s: another for loop, yeah
+</a>
 
 y: j equals...
 
@@ -208,21 +212,21 @@ s: j equals i 
 
 y: yeah, 
 
-s: j also less than... j plus plus. and then you want to go get that and compare it to value. so if nums of j equals value
+s: j also less than... j plus plus. [and then you want to go get that and compare it to value. so if nums of j equals value](./planning_schema.md)
 
 y: j equals value
 
-s: i guess return i and j. can you return like
+s: [i guess return i and j](./planning_schema.md). can you return like
 
 y: the way you return is like you put it in an array or something? yeah
 
-s: so i guess you should make a solutions
+s: [so i guess you should make a solutions](./planning_schema.md)
 
 y: declare a.. yeah
 
 s: and then solution dot push i? i don't know if you can do a... let's just do it like this because i don't know if you can do two things at once. 
 
-y: so we need to return solution. outside the for loop.
+y: [so we need to return solution. outside the for loop.](./planning_schema.md)
 
 s: do we have edge cases? like what if.. solutions will be empty if there's like nothing
 
@@ -236,19 +240,19 @@ s: no it's right there
 
 y: oh, okay.
 
-s: we can like console log something
+s: [we can like console log something](./planning_schema.md)
 
 y: yeah yeah yeah
 
 s: like 
 
+<a href=./planning_schema.md>
 y: put it before the push? do we want to console log
-
 s: like num j or something?
-
 y: yeah, num j
+</a>
 
-s: oh it looks like it's never even going in this for loop right? because it's not console logging anything. we can do something like change it to num i or something. or even value. i guess we can just do num i
+s: oh it looks like it's never even going in this for loop right? because it's not console logging anything. [we can do something like change it to num i or something. or even value. i guess we can just do num i](./planning_schema.md)
 
 y: num i, yeah let's see if this will work
 
@@ -260,7 +264,7 @@ s: nums is a list right. it's an array
 
 y: yeah, it's an array
 
-s: it didn't log that. you can like log nums, i don't know if that'll help. it's not logging anything. let's put something right at the beginning of the function. okay this is not even working. i mean the end parentheses we shouldn't have to worry about i think. you have a bracket too many?
+s: it didn't log that. you can like log nums, i don't know if that'll help. it's not logging anything. [let's put something right at the beginning of the function](./planning_schema.md). okay this is not even working. i mean the end parentheses we shouldn't have to worry about i think. you have a bracket too many?
 
 y: too many?
 
@@ -272,7 +276,7 @@ s: i mean, maybe, wait this if, this for, this... i could try like rewriting som
 
 y: each one close the brackets
 
-s: should i just like start rewriting it? okay, let's just write our loops again. just in case, i don't know, unless you have a better suggestion. 
+s: should i just like start rewriting it? okay, [let's just write our loops again.](./planning_schema.md) just in case, i don't know, unless you have a better suggestion. 
 
 y: maybe it's because this bracket 
 
@@ -282,7 +286,7 @@ y: this one?
 
 s: can you retype it?
 
-y: yeah can you just delete this one and retype it
+y: [yeah can you just delete this one and retype it](./planning_schema.md)
 
 s: yeah, oh
 
@@ -294,7 +298,7 @@ y: outside the
 
 s: like right here. and then we can delete this
 
-y: can we try just push one thing? like let's just push j
+y: can we try just push one thing? [like let's just push j](./planning_schema.md)
 
 s: yeah, sure. let's just try getting rid of one for loop. which is the thing that's causing it?
 
@@ -312,11 +316,11 @@ s: yeah that's annoying. this can all go back here. oh, three out of seven pass.
 
 y: can we move the console log? maybe put it somewhere else
 
-s: oh, it got more than... it's pushing too much into our solutions array. i think we have to break out of the loop once we get our solution. because otherwise it just loops on
+s: oh, it got more than... it's pushing too much into our solutions array. [i think we have to break out of the loop once we get our solution. because otherwise it just loops on](./planning_schema.md)
 
 y: oh yeah, you only need one solution 
 
-s: you know, we can just return solution right over here, right? once we get this 
+s: you know, [we can just return solution right over here, right? once we get this](./planning_schema.md)
 
 y: yeah
 
@@ -326,7 +330,7 @@ y: should be this one?
 
 s: should be one and three. so if 26 minus
 
-y: oh, can we do like i plus one instead of i
+y: oh, [can we do like i plus one instead of i](./planning_schema.md)
 
 s: oh yeah
 
@@ -344,9 +348,9 @@ s: merge arrays
 
 y: yup. [reading prompt aloud]
 
-s: we'll have to iterate over the array first
+s: [we'll have to iterate over the array first](./planning_schema.md)
 
-y: yeah, so iterate over this one, and then compare
+y: yeah, [so iterate over this one, and then compare](./planning_schema.md)
 
 s: compare it to the index you're on. would it be like nested for loops?
 
@@ -356,15 +360,15 @@ s: yeah, but we can do this for now
 
 y: yeah if it's smaller than... then i plus plus 
 
-s: okay, so then then you'll do another for loop. and then, close bracket
+s: [okay, so then then you'll do another for loop. and then, close bracket](./planning_schema.md)
 
 y: oh yeah, i need a bracket
 
-s: and then like compare array one i 
+s: and [then like compare array one i](./planning_schema.md)
 
 y: this should be if array one is less than array two j 
 
-s: then we'll like add it, well we can make a new array. then push array i, or solutions dot push
+s: [then we'll like add it, well we can make a new array. then push array i, or solutions dot push](./planning_schema.md)
 
 y: solutions dot push, yeah... one, i? 
 
@@ -374,7 +378,7 @@ y: yeah
 
 s: well, what if they're equal. i guess if they're equal it doesn't matter which one, so just else, like just push array 2 j. but then i guess like, like but then so if we push array 1 i and it's going to skip over 1 j because we never pushed array....
 
-y: but after you push you also need to advance the index right? so we do i plus plus
+y: but after you push you also need to advance the index right? so [we do i plus plus](./planning_schema.md)
 
 s: oh, yeah. yeah. and then over here you'd have to... well, this is already going to include this. because like at every iteration it's going to only push one thing. this is like 214
 
@@ -386,7 +390,7 @@ y: merge sort... this is so complicated
 
 s: i mean it's okay it just takes a while
 
-y: yeah, but merge sort is like you have one array, you try to sort that array. the easiest thing is we could just combine everything and just sort it
+y: yeah, but merge sort is like you have one array, you try to sort that array. [the easiest thing is we could just combine everything and just sort it](./planning_schema.md)
 
 s: oh, okay. i like that. 
 
@@ -396,7 +400,7 @@ s: is there a way to append two arrays together?
 
 y: yeah
 
-s: concat. so first array dot concat second array
+s: concat. [so first array dot concat second array](./planning_schema.md)
 
 y: so the solution will be actually array 1 dot concat array 2 
 
@@ -414,7 +418,7 @@ y: yeah yeah, uh sort
 
 s: oh no, wait you don't return anything
 
-y: i don't return? oh yeah, okay return solution
+y: i don't return? oh yeah, [okay return solution](./planning_schema.md)
 
 s: six out of seven? javascript failed us. got... that's just like, it didn't sort it
 
@@ -424,7 +428,7 @@ s: expected... wait, that's really weird. 
 
 y: like if we need to fix this, we can use the same way
 
-s: do you want to log some values in case, like log solution after
+s: [do you want to log some values in case, like log solution after](./planning_schema.md)
 
 y: oh yeah, okay
 
@@ -438,7 +442,7 @@ y: we can't use this sort thing. maybe we need to write our own sorting algorith
 
 s: what else can help us?
 
-y: this is complicated. the easiest way to sort it would be, it would have a bad runtime, but do a double loop and for each one search through where it should be and then insert it
+y: this is complicated. the easiest way to sort it would be, it would have a bad runtime, [but do a double loop and for each one search through where it should be and then insert it](./planning_schema.md)
 
 s: oh, so like insertion sort
 
@@ -448,7 +452,7 @@ s: kind of
 
 y: yeah, i don't know
 
-s: yeah, so like make a new empty array, add like one element to it, and then go through the first array and add it
+s: yeah, [so like make a new empty array, add like one element to it, and then go through the first array and add it](./planning_schema.md)
 
 y: but can you add something, like can you insert something to an array
 
