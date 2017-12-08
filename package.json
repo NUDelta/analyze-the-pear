@@ -1,0 +1,24 @@
+{
+  "name": "analyze-the-pear",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scripts/logs.js",
+  "scripts": {
+    "start": "node scripts/logs.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NUDelta/analyze-the-pear.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NUDelta/analyze-the-pear/issues"
+  },
+  "homepage": "https://github.com/NUDelta/analyze-the-pear#readme",
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "cli-highlight": "^1.2.3"
+  }
+}
