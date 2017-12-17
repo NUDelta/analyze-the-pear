@@ -6,9 +6,10 @@
 
 2: square brackets. is that the correct syntax for...
 
+<a href=../hetero_explanation_schema.md>
 1: sorry, what did you just do?
-
 2: so you just do var and then
+</a>
 
 1: oh okay right yeah, my bad. just like a regular
 
@@ -24,13 +25,12 @@
 
 1: is it append or dot add?
 
-2\. oh shi- wait yeah yeah. [okay so we increase the variable. alright so you push something and then you add up...](./planning_schema.md) i guess you don't need a new one right?
-
+<a href=../hetero_explanation_schema.md>
+2: oh shi- wait yeah yeah. [okay so we increase the variable. alright so you push something and then you add up...](./planning_schema.md) i guess you don't need a new one right?
 1: um
-
 2: [i guess you could just do passing scores total, right](./planning_schema.md)
-
 1: oh yeah yeah
+</a>
 
 2: scores at i
 
@@ -48,7 +48,7 @@
 
 1: yeah
 
-2: oh if there are no passing scores. oh okay i see. oh wait. passing scores dot. so it's an edge case over here. 
+2: [oh if there are no passing scores.](../hetero_explanation_schema.md) oh okay i see. oh wait. passing scores dot. so it's an edge case over here. 
 
 1: oh it's not an array anymore
 
@@ -64,13 +64,12 @@
 
 1: yeah
 
+<a href=../hetero_explanation_schema.md>
 2: do you remember this
-
 1: yeah, i think the solution was to start at either end and then in the middle, so you have like... 
-
 2: divide by two?
-
 1: yeah, yeah. 
+</a>
 
 2: we can assume for two sum, or, am i allowed to ask questions?
 
@@ -98,7 +97,7 @@ j: i won't answer questions about the problem
 
 1: if, uh... 
 
-2: [oh yeah i guess you don't need the item variable. equals equals target yeah. you're returning the indices. so just return i and j as an array. yeah. [unintelligible]. right? yeah because we had extra parentheses here i think. we had one here. [unintelligible]. oh, there's no finishing parentheses. it's spelled right. so this is when the last one right. one. oh so j has to start at one after i think. because you don't want to go to the ones before him](./planning_schema.md)
+2: [oh yeah i guess you don't need the item variable. equals equals target yeah. you're returning the indices. so just return i and j as an array. yeah. [unintelligible]. right? yeah because we had extra parentheses here i think. we had one here. [unintelligible]. oh, there's no finishing parentheses. it's spelled right. so this is when the last one right. one. oh so j has to start at one after i think. because you don't want to go to the ones before him](./planning_schema.md, ../hetero_explanation_schema.md)
 
 1: yeah
 
@@ -129,7 +128,7 @@ j: i won't answer questions about the problem
 <a href=./planning_schema.md>
 2: so like there's a two in array one and a two in array two, it doesn't really matter. so let's see. so while next one is less than array one dot length, right. and next two is less than array two dot length. 
 1: this is assuming they're like the same length right
-2: i don't think so because once this while loop ends, then assuming our output is correct, then we know that the remaining numbers in the other array will all be greater than anything else so we can just add it to everything else right
+2: [i don't think so because once this while loop ends, then assuming our output is correct, then we know that the remaining numbers in the other array will all be greater than anything else so we can just add it to everything else right](../hetero_explanation_schema.md)
 </a>
 
 1: oh okay. wait so like in the while loop are we like, okay so [we're just going to add the rest afterwards](./planning_schema.md)
@@ -169,7 +168,7 @@ j: i won't answer questions about the problem
 
 2: shift?
 
-1: yeah, removes the first element
+1: yeah, [removes the first element](../hetero_explanation_schema.md)
 
 2: okay. shift at index 1 right
 
@@ -183,7 +182,7 @@ j: i won't answer questions about the problem
 
 1: [or check the lengths for zero first and then return and then else.](./planning_schema.md) or you could do
 
-2: no, because one's always going to finish before the other so there's always going to be one inside. so if r1 dot length equals zero then we know that we need to add the rest of r2, right
+2: no, [because one's always going to finish before the other so there's always going to be one inside. so if r1 dot length equals zero then we know that we need to add the rest of r2, right](../hetero_explanation_schema.md)
 
 1: yeah
 
@@ -235,7 +234,7 @@ j: i won't answer questions about the problem
 
 1: are you missing a semicolon anywhere
 
-2: i dont think so. maybe i just do, because i know some languages have like this problem. i don't think that's it, but. do i have space here? no?
+2: i dont think so. [maybe i just do, because i know some languages have like this problem. i don't think that's it, but. do i have space here? no?](../hetero_explanation_schema.md)
 
 1: does it matter if that's lined up
 
@@ -279,19 +278,19 @@ j: i won't answer questions about the problem
 
 1: so i think when the
 
-2: alright so the first two steps are the same, and then, so one, two, somewhere that we passed, oh it doesn't show the ones we do pass right
+2: alright so the first two steps are the same, and then, so one, two, somewhere that we passed, [oh it doesn't show the ones we do pass right](../hetero_explanation_schema.md)
 
-1: i think instead of doing less than or equal to, [we should have one where it's both equal to and then we just push both from both arrays, since i think what this is doing, like, it's only pushing one and then it increments the index](./planning_schema.md)
+1: i think instead of doing less than or equal to, [we should have one where it's both equal to and then we just push both from both arrays, since i think what this is doing, like, it's only pushing one and then it increments the index](./planning_schema.md, ../hetero_explanation_schema.md)
 
-2: yeah but i dont think that would affect the other array then, right. so one, two, three, no but it should be going one, two two. so it goes here, right, it shifts, oh no no oh i see. so three is bigger than two, not but [then you should push the first one at array 2.](./planning_schema.md)
+2: yeah but i dont think that would affect the other array then, right. so one, two, three, no but it should be going one, two two. so it goes here, right, it shifts, oh no no oh i see. so three is bigger than two, not but [then you should push the first one at array 2.](./planning_schema.md, ../hetero_explanation_schema.md)
 
 1: oh yeah
 
-2: because this doesn't pass. so what's the issue here. next one, plus equals one. what is it right here. it should be, the next two should be zero at this point, like the first time we run two, at index two. so the second time, it's adding the two from array 2, right
+2: [because this doesn't pass. so what's the issue here. next one, plus equals one. what is it right here. it should be, the next two should be zero at this point, like the first time we run two, at index two. so the second time, it's adding the two from array 2, right](../hetero_explanation_schema.md)
 
 1: mhm
 
-2: but it should still be adding the first one, i mean the second one, from array 1\. so it shift— oh. oh my god. [we're not supposed to increment this. because when you shift it you remove it. so you're skipping one. there we go. linear?](./planning_schema.md)
+2: but it should still be adding the first one, i mean the second one, from array 1\. so it shift— oh. oh my god. [we're not supposed to increment this. because when you shift it you remove it. so you're skipping one. there we go. linear?](./planning_schema.md, ../hetero_explanation_schema.md)
 
 1: yeah
 
@@ -329,7 +328,7 @@ j: i won't answer questions about the problem
 
 2: i think it is, it's like to in, oh no, it's been too long
 
-1: alright so you start at outer index, first time you run it through it'll be at zero. j is less than outer dot length, j plus plus, and then, oh wait, [actually we don't need another number because we can just check at i](./planning_schema.md)
+1: alright so you start at outer index, first time you run it through it'll be at zero. j is less than outer dot length, j plus plus, and then, oh wait, [actually we don't need another number because we can just check at i](./planning_schema.md, ../hetero_explanation_schema.md)
 
 31:05 
 

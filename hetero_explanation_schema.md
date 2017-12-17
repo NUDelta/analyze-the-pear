@@ -16,7 +16,7 @@ When a person writes some pseudocode and walks through it line by line
 
 NOT when both individuals are working together to articulate a concept
 NOT a description of what an individual is doing
-
+NOT a description of a plan unless their is supporting reasoning (explanation) provided
 <a href=../hetero_explanation_schema.md>
 A: ohh
 B: you can just add it to that
