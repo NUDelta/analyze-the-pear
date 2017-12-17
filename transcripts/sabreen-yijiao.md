@@ -91,7 +91,7 @@ s: 0 out of 7 tests passed. oh got not a number. maybe, do you want to console l
 y: just like this?
 
 <a href=./planning_schema.md>
-s: yeah, and you have to put something in there, so if you want to log the sum or like
+s: yeah, [and you have to put something in there, so if you want to log the sum or like](../hetero_explanation_schema.md)
 y: yeah, we can see sum first
 s: do you want to console log score inside here?
 </a>
@@ -114,7 +114,7 @@ s: oh, do you think cause it's a string?
 
 y: ah okay. 0, 1, 2... so it's just
 
-s: oh you know what, [i think it's actually the index of the array so try doing of instead of in. because i think it's like giving it the index of the array not the actual value](./planning_schema.md)
+s: oh you know what, [i think it's actually the index of the array so try doing of instead of in. because i think it's like giving it the index of the array not the actual value](./planning_schema.md, ../hetero_explanation_schema.md)
 
 y: yeah yeah yeah okay
 
@@ -175,7 +175,7 @@ s: so like, for 
 
 y: var number
 
-s: yeah. oh actually maybe we need to use a [for loop with an i because we want to see if](./planning_schema.md)
+s: yeah. oh actually maybe we need to use a [for loop with an i because we want to see if](./planning_schema.md, ../hetero_explanation_schema.md)
 
 y: oh, yeah, that's right
 
@@ -252,7 +252,7 @@ s: like num j or something?
 y: yeah, num j
 </a>
 
-s: oh it looks like it's never even going in this for loop right? because it's not console logging anything. [we can do something like change it to num i or something. or even value. i guess we can just do num i](./planning_schema.md)
+s: [oh it looks like it's never even going in this for loop right? because it's not console logging anything.](../hetero_explanation_schema.md) [we can do something like change it to num i or something. or even value. i guess we can just do num i](./planning_schema.md)
 
 y: num i, yeah let's see if this will work
 
@@ -290,7 +290,7 @@ y: [yeah can you just delete this one and retype it](./planning_schema.md)
 
 s: yeah, oh
 
-y: just like this, because the thing changed to this and it's a different language
+y: [just like this, because the thing changed to this and it's a different language](../hetero_explanation_schema.md)
 
 s: oh, yeah. and this bracket will be closed like this, and inside we have an if statement  and then we're going to close the if statement, and then we can just do these things, right. and then at the end we return solution, 
 
@@ -306,17 +306,17 @@ y: do we need int here?
 
 s: where? oh wait look, something about the for loop was messing it up.
 
+<a href=../hetero_explanation_schema.md>
 y: so in the example here, you didn't need to say for int i, instead you should
-
 s: oh, maybe it's var. i think that's the issue
-
 y: yeah because javascript doesn't need
+</a>
 
 s: yeah that's annoying. this can all go back here. oh, three out of seven pass. okay, wait. 
 
 y: can we move the console log? maybe put it somewhere else
 
-s: oh, it got more than... it's pushing too much into our solutions array. [i think we have to break out of the loop once we get our solution. because otherwise it just loops on](./planning_schema.md)
+s: oh, it got more than... it's pushing too much into our solutions array. [i think we have to break out of the loop once we get our solution. because otherwise it just loops on](./planning_schema.md, ../hetero_explanation_schema.md)
 
 y: oh yeah, you only need one solution 
 
@@ -330,11 +330,11 @@ y: should be this one?
 
 s: should be one and three. so if 26 minus
 
+<a href=../hetero_explanation_schema.md>
 y: oh, [can we do like i plus one instead of i](./planning_schema.md)
-
 s: oh yeah
-
 y: because we don't want to repeat the same
+</a>
 
 s: yeah, because this is 
 
@@ -378,9 +378,11 @@ y: yeah
 
 s: well, what if they're equal. i guess if they're equal it doesn't matter which one, so just else, like just push array 2 j. but then i guess like, like but then so if we push array 1 i and it's going to skip over 1 j because we never pushed array....
 
+<a href=../hetero_explanation_schema.md>
 y: but after you push you also need to advance the index right? so [we do i plus plus](./planning_schema.md)
+</a>
 
-s: oh, yeah. yeah. and then over here you'd have to... well, this is already going to include this. because like at every iteration it's going to only push one thing. this is like 214
+s: [oh, yeah. yeah. and then over here you'd have to... well, this is already going to include this. because like at every iteration it's going to only push one thing. this is like 214](../hetero_explanation_schema.md)
 
 y: yeah, i remember this. we can search
 

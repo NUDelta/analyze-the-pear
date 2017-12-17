@@ -17,6 +17,9 @@ When a person writes some pseudocode and walks through it line by line
 NOT when both individuals are working together to articulate a concept
 NOT a description of what an individual is doing
 NOT a description of a plan unless their is supporting reasoning (explanation) provided
+
+YES an individual identifying something unknown to both of them - i.e. identifying error in their code for specifc reason
+YES a description with WHY the described has value
 <a href=../hetero_explanation_schema.md>
 A: ohh
 B: you can just add it to that
@@ -38,3 +41,7 @@ B: append i and append the nums, does that make sense"
 QUESTION:
 B: [so we'll have less than target, we'll have another array that says index, and if this condition meets then we add nums at i to less than target and i to index, does that make sense.](./planning_schema.md, ../hetero_explanation_schema.md)
 
+
+2: oh, okay. i see. [so then the other one is just the second one and then. so if. can make this a while loop? so this one goes to this, no this one goes to this, this one goes to this and yeah. so now uh let's see. since, so we want to check which one's done. like which loop finished](./planning_schema.md)
+
+s: you know, [we can just return solution right over here, right? once we get this](./planning_schema.md)
