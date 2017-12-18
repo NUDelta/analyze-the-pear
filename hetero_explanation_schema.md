@@ -13,13 +13,15 @@ P1: defines stack
 When a person writes some pseudocode and walks through it line by line
 
 
+Guidelines used for coding:
+YES if description WITH an explanation about WHY that description is has value
+YES if identifying reason for bug in code
+NO if both individuals are working together to articulate a concept
+NO if just a description of what a person is doing or what a person should do
 
-NOT when both individuals are working together to articulate a concept
-NOT a description of what an individual is doing
-NOT a description of a plan unless their is supporting reasoning (explanation) provided
 
-YES an individual identifying something unknown to both of them - i.e. identifying error in their code for specifc reason
-YES a description with WHY the described has value
+Examples of Self/Hetero Explanation:
+
 <a href=../hetero_explanation_schema.md>
 A: ohh
 B: you can just add it to that
@@ -27,6 +29,7 @@ A: add it
 B: at the end we can just divide it by scores.
 </a>
 
+Non Examples:
 NOT: "we need to for loop first, cause we need to look at each number" bc this is a description not explaining why
 
 NOT BC OF CONTEXT:
@@ -38,7 +41,7 @@ A: ya
 
 B: append i and append the nums, does that make sense"
 
-QUESTION:
+Question about classification:
 B: [so we'll have less than target, we'll have another array that says index, and if this condition meets then we add nums at i to less than target and i to index, does that make sense.](./planning_schema.md, ../hetero_explanation_schema.md)
 
 
