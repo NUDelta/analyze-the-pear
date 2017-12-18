@@ -23,7 +23,7 @@
 
 2: okay
 
-1: or [we should make an object appear first to be like our total. because we're just taking the average of the passing scores](./planning_schema.md)
+1: or [we should make an object appear first to be like our total. because we're just taking the average of the passing scores](./planning_schema.md, ../hetero_explanation_schema.md)
 
 2: right, what do you mean total? like the sum of them?
 
@@ -49,11 +49,11 @@ j: you can't fill out the body of the if statement
 
 2: right. 
 
-1: [alright, actually maybe we should make it, instead of less than 70 maybe we should make it greater than or equal to 70, because we only want to act on it if it is greater than or equal to 70](./planning_schema.md)
+1: [alright, actually maybe we should make it, instead of less than 70 maybe we should make it greater than or equal to 70, because we only want to act on it if it is greater than or equal to 70](./planning_schema.md, ../hetero_explanation_schema.md)
 
 2: what do you mean, i thought we were deleting
 
-1: oh, [we're not deleting anything. the numbers are all going to be there, we're just going to act upon an average variable, and output that at end](./planning_schema.md)
+1: oh, [we're not deleting anything. the numbers are all going to be there, we're just going to act upon an average variable, and output that at end](./planning_schema.md, ../hetero_explanation_schema.md)
 
 2: okay, so submit action right?
 
@@ -130,7 +130,7 @@ j: you can't fill out the body of the if statement
 
 2: oh, so if none of them we want to return a NaN? wait no, what
 
-1: oh, it's because we tried to divide zero by zero
+1: [oh, it's because we tried to divide zero by zero](../hetero_explanation_schema.md)
 
 2: oh yeah, so just say if total number is zero, 
 
@@ -212,7 +212,7 @@ j: you can submit
 
 1: no, have you
 
-2: [yeah, so i think what you wanna do is you wanna instantiate a hash table, and using the hash table, if you go through this right and you want the target to be nine, you want the key to nine minus seven which is two and then you set the value of that key to be seven, and then you just loop through the array and try to find if two is already in the hash table, if not then you add it to the hash table](./planning_schema.md)
+2: [yeah, so i think what you wanna do is you wanna instantiate a hash table, and using the hash table, if you go through this right and you want the target to be nine, you want the key to nine minus seven which is two and then you set the value of that key to be seven, and then you just loop through the array and try to find if two is already in the hash table, if not then you add it to the hash table](./planning_schema.md, ../hetero_explanation_schema.md)
 
 1: wait, so if you have the syntax for hash table, so is the first one
 
@@ -220,7 +220,7 @@ j: you can submit
 
 1: this, do foo bar?
 
-2: oh, no, oh yeah. i think yeah [if you just do the brackets it'll instantiate it. so you don't have to put anything in it right now. i think, we can google this right?](./planning_schema.md)
+2: oh, no, oh yeah. i think yeah [if you just do the brackets it'll instantiate it. so you don't have to put anything in it right now. i think, we can google this right?](./planning_schema.md, ../hetero_explanation_schema.md)
 
 1: yeah, we can use the internet, they said
 
@@ -294,7 +294,7 @@ j: you can check in the test cases
 
 2: okay. alright, so 
 
-<a href=./planning_schema.md>
+<a href=./planning_schema.md href=../hetero_explanation_schema.md>
 1: okay, we need to actually have like a pre, condition go off?
 2: what's that?
 1: oh, to make sure we actually add up to the target
@@ -306,11 +306,11 @@ j: you can check in the test cases
 
 1: i guess, but we still need to make sure for the first one. or shouldn't we just initialize the hash table to like 
 
-2: [so what I'm saying is you add the remainder of whatever the target minus the number is, so the hash table has the key, so say we're going through this, like we're passing through this, it would go,](./planning_schema.md) oh wait i guess you could check like, that's not really... yeah okay you're right, you can check first. wait no, because you want to check if they sum up to it. i guess if like nine existed, is what I'm saying, if nine existed here then it would be like nine equals nine, but we want two numbers right
+2: [so what I'm saying is you add the remainder of whatever the target minus the number is, so the hash table has the key, so say we're going through this, like we're passing through this, it would go,](./planning_schema.md, ../hetero_explanation_schema.md) oh wait i guess you could check like, that's not really... yeah okay you're right, you can check first. wait no, because you want to check if they sum up to it. i guess if like nine existed, is what I'm saying, if nine existed here then it would be like nine equals nine, but we want two numbers right
 
 1: we want two numbers
 
-2: [right, so what I'm saying is here we would go check if seven is already in the hash table, it's not, so then now what we want to do is we want to add to the hash table, nine minus seven, which is the remainder of what we want. because we want a two, because we know that seven plus two equals nine. so we add two to the hash table as the key, and we put seven as the value to that key. so it would say 2, 7 in the hash table. so now when we loop through again, now we have a two, we see is two in the hash table? two is in the hash table, so we know there's a solution now, and now we just return two and seven because those are the numbers](./planning_schema.md)
+2: [right, so what I'm saying is here we would go check if seven is already in the hash table, it's not, so then now what we want to do is we want to add to the hash table, nine minus seven, which is the remainder of what we want. because we want a two, because we know that seven plus two equals nine. so we add two to the hash table as the key, and we put seven as the value to that key. so it would say 2, 7 in the hash table. so now when we loop through again, now we have a two, we see is two in the hash table? two is in the hash table, so we know there's a solution now, and now we just return two and seven because those are the numbers](./planning_schema.md, ../hetero_explanation_schema.md)
 
 1: no, yeah i understand that all in theory. so how do we implement the hash table with those numbers in practice?
 
@@ -355,7 +355,7 @@ j: you can only do one thing per action
 
 1: yeah, but it doesn't have the values we're looking for in already
 
-2: right, but we're going to be looking at the numbers that happened before right, so it doesnt matter if we add, right now we add 2, 7 in here, and then check if nums i which is seven is in here, because it'll only look for the keys
+2: [right, but we're going to be looking at the numbers that happened before right, so it doesnt matter if we add, right now we add 2, 7 in here, and then check if nums i which is seven is in here, because it'll only look for the keys](../hetero_explanation_schema.md)
 
 1: i guess so, yeah. should we have nested for loops? like one for loop to initialize it and another for loop to check all the...
 
@@ -373,7 +373,7 @@ j: you can only do one thing per action
 
 2: why does this expect one and five
 
-1: oh, that's what i was saying, it expects us to return the indices, not the actual values themselves
+1: [oh, that's what i was saying, it expects us to return the indices, not the actual values themselves](../hetero_explanation_schema.md)
 
 2: ah, okay okay. i didn't realize that. [okay so then when we're doing this, we don't do nums i, we just do i. ](./planning_schema.md)
 
