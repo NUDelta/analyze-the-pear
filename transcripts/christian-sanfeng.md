@@ -6,10 +6,9 @@
 
 2: square brackets. is that the correct syntax for...
 
-<a href=../hetero_explanation_schema.md>
 1: sorry, what did you just do?
+
 2: so you just do var and then
-</a>
 
 1: oh okay right yeah, my bad. just like a regular
 
@@ -48,7 +47,7 @@
 
 1: yeah
 
-2: [oh if there are no passing scores.](../hetero_explanation_schema.md) oh okay i see. oh wait. passing scores dot. so it's an edge case over here. 
+2: oh if there are no passing scores. oh okay i see. oh wait. passing scores dot. so it's an edge case over here. 
 
 1: oh it's not an array anymore
 
@@ -64,12 +63,13 @@
 
 1: yeah
 
-<a href=../hetero_explanation_schema.md>
 2: do you remember this
+
 1: yeah, i think the solution was to start at either end and then in the middle, so you have like... 
+
 2: divide by two?
+
 1: yeah, yeah. 
-</a>
 
 2: we can assume for two sum, or, am i allowed to ask questions?
 
@@ -97,7 +97,7 @@ j: i won't answer questions about the problem
 
 1: if, uh... 
 
-2: [oh yeah i guess you don't need the item variable. equals equals target yeah. you're returning the indices. so just return i and j as an array. yeah. [unintelligible]. right? yeah because we had extra parentheses here i think. we had one here. [unintelligible]. oh, there's no finishing parentheses. it's spelled right. so this is when the last one right. one. oh so j has to start at one after i think. because you don't want to go to the ones before him](./planning_schema.md, ../hetero_explanation_schema.md)
+2: [oh yeah i guess you don't need the item variable. equals equals target yeah. you're returning the indices. so just return i and j as an array. yeah. [unintelligible]. right? yeah because we had extra parentheses here i think. we had one here.](../hetero_explanation_schema.md, ./planning_schema.md) [unintelligible]. oh, there's no finishing parentheses. it's spelled right. [so this is when the last one right. one. oh so j has to start at one after i think. because you don't want to go to the ones before him](./planning_schema.md, ../hetero_explanation_schema.md)
 
 1: yeah
 
@@ -109,7 +109,9 @@ j: i won't answer questions about the problem
 
 1: not off the top of my head
 
+<a href=../hetero_explanation_schema.md>
 2: [unless you just want to put the two in one array and then sort it.](./planning_schema.md) is that faster? because if you, well it depends on what sort method you use, but if you just do index counters i think at worst it's, what's the worst time complexity. it's like they're all alternating because they're going to be sorted no matter what
+</a>
 
 1: yeah
 
@@ -147,10 +149,9 @@ j: i won't answer questions about the problem
 
 2: let's see, and then. how do you wanna handle the case where their lengths are different. so one is going to be different. how do we wanna tell when the length is finished. 
 
-<a href=./planning_schema>
-1: we could... we could delete... we could just pop numbers off each array
+1: [we could... we could delete... we could just pop numbers off each array](./planning_schema.md)
+
 2: oh yeah. that works, yeah
-</a>
 
 1: and then, yeah, whoevers length is longer— 
 
@@ -250,7 +251,7 @@ j: i won't answer questions about the problem
 
 1: oh it's not going to print
 
-2: [what happens when you put it here.](./planning_schema.md) put it here, okay so it just doesn't print. one, two, three, two, three, two, three, three
+2: [what happens when you put it here. put it here, ](./planning_schema.md) okay so it just doesn't print. one, two, three, two, three, two, three, three
 
 1: oh the bottom
 
@@ -278,15 +279,17 @@ j: i won't answer questions about the problem
 
 1: so i think when the
 
-2: alright so the first two steps are the same, and then, so one, two, somewhere that we passed, [oh it doesn't show the ones we do pass right](../hetero_explanation_schema.md)
+2: alright so the first two steps are the same, and then, so one, two, somewhere that we passed, oh it doesn't show the ones we do pass right
 
 1: i think instead of doing less than or equal to, [we should have one where it's both equal to and then we just push both from both arrays, since i think what this is doing, like, it's only pushing one and then it increments the index](./planning_schema.md, ../hetero_explanation_schema.md)
 
-2: yeah but i dont think that would affect the other array then, right. so one, two, three, no but it should be going one, two two. so it goes here, right, it shifts, oh no no oh i see. so three is bigger than two, not but [then you should push the first one at array 2.](./planning_schema.md, ../hetero_explanation_schema.md)
-
+<a href=../hetero_explanation_schema.md>
+2: yeah but i dont think that would affect the other array then, right. so one, two, three, no but it should be going one, two two. so it goes here, right, it shifts, oh no no oh i see. so three is bigger than two, not [but then you should push the first one at array 2.](./planning_schema.md)
 1: oh yeah
+2: because this doesn't pass. 
+</a>
 
-2: [because this doesn't pass. so what's the issue here. next one, plus equals one. what is it right here. it should be, the next two should be zero at this point, like the first time we run two, at index two. so the second time, it's adding the two from array 2, right](../hetero_explanation_schema.md)
+2: so what's the issue here. next one, plus equals one. what is it right here. it should be, the next two should be zero at this point, like the first time we run two, at index two. so the second time, it's adding the two from array 2, right
 
 1: mhm
 
@@ -310,7 +313,7 @@ j: i won't answer questions about the problem
 
 1: yeah
 
-2: [i guess what you can do instead is, since you know it's in order, like it goes to three right, and then for outer you know that three is at index one, and then you keep that index, so like next time when it goes to five it only checks the numbers in outer that are after index one](./planning_schema.md)
+2: [i guess what you can do instead is, since you know it's in order, like it goes to three right, and then for outer you know that three is at index one, and then you keep that index, so like next time when it goes to five it only checks the numbers in outer that are after index one](./planning_schema.md, ../hetero_explanation_schema.md)
 
 1: okay
 

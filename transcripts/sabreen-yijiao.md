@@ -91,7 +91,7 @@ s: 0 out of 7 tests passed. oh got not a number. maybe, do you want to console l
 y: just like this?
 
 <a href=./planning_schema.md>
-s: yeah, [and you have to put something in there, so if you want to log the sum or like](../hetero_explanation_schema.md)
+s: yeah, and you have to put something in there, so if you want to log the sum or like
 y: yeah, we can see sum first
 s: do you want to console log score inside here?
 </a>
@@ -224,7 +224,7 @@ s: [so i guess you should make a solutions](./planning_schema.md)
 
 y: declare a.. yeah
 
-s: and then solution dot push i? i don't know if you can do a... let's just do it like this because i don't know if you can do two things at once. 
+s: [and then solution dot push i? i don't know if you can do a... let's just do it like this because i don't know if you can do two things at once.](../hetero_explanation_schema.md)
 
 y: [so we need to return solution. outside the for loop.](./planning_schema.md)
 
@@ -376,7 +376,7 @@ s: mhm. one else or i guess if j is less than i we would push j
 
 y: yeah
 
-s: well, what if they're equal. i guess if they're equal it doesn't matter which one, so just else, like just push array 2 j. but then i guess like, like but then so if we push array 1 i and it's going to skip over 1 j because we never pushed array....
+s: well, what if they're equal. [i guess if they're equal it doesn't matter which one, so just else, like just push array 2 j. but then i guess like, like but then so if we push array 1 i and it's going to skip over 1 j because we never pushed array....](../hetero_explanation_schema.md)
 
 <a href=../hetero_explanation_schema.md>
 y: but after you push you also need to advance the index right? so [we do i plus plus](./planning_schema.md)

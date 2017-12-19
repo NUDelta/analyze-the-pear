@@ -145,8 +145,7 @@ A: ok
 B: uh how else we can do this
 
 
-A: lets see um,[we should look through every number in there.](./planning_schema.md) so should we get the for
-loop?
+A: lets see um,[we should look through every number in there.](./planning_schema.md) so should we get the for loop?
 
 
 B: yea
@@ -252,12 +251,17 @@ A: or add it to some array
 
 B: you don't have-- how come you have to update, [i can just put another var in the top that is an integer](./planning_schema.md)
 
-<a href=../hetero_explanation_schema.md>
+
 A: ohh
+
+
 B: you can just add it to that
+
+
 A: add it
+
+
 B: at the end we can just divide it by scores.
-</a>
 
 <a href=./planning_schema.md>
 A: so we need two variables
@@ -444,7 +448,7 @@ B: ahh
 A: oh why we getting Not a Number
 
 
-B: [its because there arent any passing scores](../hetero_explanation_schema.md)
+B: its because there arent any passing scores
 
 
 A: right
@@ -661,7 +665,7 @@ A: i have two for loops
 B: is this right though
 
 
-A: [if nums is less than target ya, thats the conditional we need](../hetero_explanation_schema)
+A: if nums is less than target ya, thats the conditional we need
 
 
 B: submit action. I'll discard object because I don't think we'll need object.
@@ -699,14 +703,14 @@ A: [so we are going to add the numbers there less than or equal to target into t
 B: and, its your turn and i think you should get rid of one of these to get another array card
 
 
-A: alright, [i need the for loop for sure bc we need to go through that](./planning_schema.md)
+A: alright, [i need the for loop for sure bc we need to go through that](./planning_schema.md, ../hetero_explanation_schema.md)
 
 
 A: alright so what are we going to do once we have the array of numbers that are less
 than or equal to the target
 
 
-B: [so we'll have less than target, we'll have another array that says index, and if this condition meets then we add nums at i to less than target and i to index, does that make sense.](./planning_schema.md, ../hetero_explanation_schema.md)
+B: [so we'll have less than target, we'll have another array that says index, and if this condition meets then we add nums at i to less than target and i to index, does that make sense.](./planning_schema.md)
 
 
 A: no repeat
@@ -782,13 +786,12 @@ B: for and while?
 
 <a href=./planning_schema.md>
 A: so lock in the first element using for
-B: ok, for **speaking while writing on board** var x = 0, like that? thats just locking in the first
-element
+B: ok, for **speaking while writing on board** var x = 0, like that? thats just locking in the first element
 </a>
 
 A: ok
 
-<a href=./planning_schema.md href=../hetero_explanation_schema.md>
+<a href=./planning_schema.md>
 B: then you want to add this to everything else right
 A: like, while the sum is not the target, um,
 B: while sum is not the target. Or...
@@ -854,14 +857,14 @@ B: [but i think it should be length -x. right? I mean if its here if it does by 
 A: right
 
 
-B: so if x equals one its here so we want to just do it once and twice, length is 4, 4 -1 is 3
-so itll do it 1 and 2 and it doesnt do it inclusively
+B: [so if x equals one its here so we want to just do it once and twice, length is 4, 4 -1 is 3
+so itll do it 1 and 2 and it doesnt do it inclusively](../hetero_explanation_schema.md)
 
 
 A: so all of this makes sense to me [we just have to add the i+ increment it](./planning_schema.md)
 
 
-B: plus plus. And thne
+B: plus plus. And then
 
 <a href=../hetero_explanation_schema.md>
 A: so like [return the sum value if they add up](./planning_schema.md). no we need to return the index values
@@ -903,6 +906,7 @@ A: wait wait wait, why is the x not indexof
 
 
 B: indexof, so this is the index of , this is the indexof this value right
+
 <a href=../hetero_explanation_schema.md>
 A: right but this is the new list we are looking at not the original array, the array that we are looking at. Cause we eliminate the numbers that are greater than the target number
 B: but the array itself doesnt change,
@@ -913,7 +917,7 @@ A: ya but we are not interested in the those index numbers
 
 30:06
 
-A: [it needs to be the index number of the original input that we get which includes the numbers that are greater than](./planning_schema.md, ../hetero_explanation_schema.md)
+A: it needs to be the index number of the original input that we get which includes the numbers that are greater than](./planning_schema.md)
 
 
 B: wait did we take out ...

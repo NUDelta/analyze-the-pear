@@ -53,7 +53,7 @@ j: you can't fill out the body of the if statement
 
 2: what do you mean, i thought we were deleting
 
-1: oh, [we're not deleting anything. the numbers are all going to be there, we're just going to act upon an average variable, and output that at end](./planning_schema.md, ../hetero_explanation_schema.md)
+1: oh, [we're not deleting anything. the numbers are all going to be there, we're just going to act upon an average variable, and output that at end](./planning_schema.md)
 
 2: okay, so submit action right?
 
@@ -130,7 +130,7 @@ j: you can't fill out the body of the if statement
 
 2: oh, so if none of them we want to return a NaN? wait no, what
 
-1: [oh, it's because we tried to divide zero by zero](../hetero_explanation_schema.md)
+1: oh, it's because we tried to divide zero by zero
 
 2: oh yeah, so just say if total number is zero, 
 
@@ -220,7 +220,7 @@ j: you can submit
 
 1: this, do foo bar?
 
-2: oh, no, oh yeah. i think yeah [if you just do the brackets it'll instantiate it. so you don't have to put anything in it right now. i think, we can google this right?](./planning_schema.md, ../hetero_explanation_schema.md)
+2: oh, no, oh yeah. i think yeah [if you just do the brackets it'll instantiate it. so you don't have to put anything in it right now. i think, we can google this right?](./planning_schema.md)
 
 1: yeah, we can use the internet, they said
 
@@ -306,7 +306,7 @@ j: you can check in the test cases
 
 1: i guess, but we still need to make sure for the first one. or shouldn't we just initialize the hash table to like 
 
-2: [so what I'm saying is you add the remainder of whatever the target minus the number is, so the hash table has the key, so say we're going through this, like we're passing through this, it would go,](./planning_schema.md, ../hetero_explanation_schema.md) oh wait i guess you could check like, that's not really... yeah okay you're right, you can check first. wait no, because you want to check if they sum up to it. i guess if like nine existed, is what I'm saying, if nine existed here then it would be like nine equals nine, but we want two numbers right
+2: [so what I'm saying is you add the remainder of whatever the target minus the number is, so the hash table has the key, so say we're going through this, like we're passing through this, it would go,](./planning_schema.md, ../hetero_explanation_schema.md) oh wait i guess you could check like, that's not really... [yeah okay you're right, you can check first. wait no, because you want to check if they sum up to it. i guess if like nine existed, is what I'm saying, if nine existed here then it would be like nine equals nine, but we want two numbers right](../hetero_explanation_schema.md)
 
 1: we want two numbers
 
@@ -345,15 +345,15 @@ j: you can only do one thing per action
 
 2: yeah. and i don't think we need the second if statement.
 
+<a href=../hetero_explanation_schema.md>
 1: shouldn't this happen before this if statement goes off though?
-
 2: um, i don't think so, because
-
 1: because then we can actually instantiate the hash table for... or do we need a separate um
+</a>
 
-2: i don't think it matters, right, because the hash table is already initialized
+2: [i don't think it matters, right, because the hash table is already initialized](../hetero_explanation_schema.md)
 
-1: yeah, but it doesn't have the values we're looking for in already
+1: [yeah, but it doesn't have the values we're looking for in already](../hetero_explanation_schema.md)
 
 2: [right, but we're going to be looking at the numbers that happened before right, so it doesnt matter if we add, right now we add 2, 7 in here, and then check if nums i which is seven is in here, because it'll only look for the keys](../hetero_explanation_schema.md)
 
@@ -373,7 +373,7 @@ j: you can only do one thing per action
 
 2: why does this expect one and five
 
-1: [oh, that's what i was saying, it expects us to return the indices, not the actual values themselves](../hetero_explanation_schema.md)
+1: oh, that's what i was saying, it expects us to return the indices, not the actual values themselves
 
 2: ah, okay okay. i didn't realize that. [okay so then when we're doing this, we don't do nums i, we just do i. ](./planning_schema.md)
 
