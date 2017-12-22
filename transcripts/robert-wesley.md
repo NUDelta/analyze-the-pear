@@ -130,7 +130,7 @@ j: you can't fill out the body of the if statement
 
 2: oh, so if none of them we want to return a NaN? wait no, what
 
-1: oh, it's because we tried to divide zero by zero
+1: oh, [it's because we tried to divide zero by zero](../hetero_explanation_schema.md)
 
 2: oh yeah, so just say if total number is zero, 
 

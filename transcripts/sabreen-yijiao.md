@@ -22,7 +22,7 @@ y: so it'd be if var score is greater than 
 s: greater than or equal to seventy. should we like add it to a new list?
 </a>
 
-y: yeah, because we need [unintelligible]
+y: [yeah, because we need [unintelligible]](../hetero_explanation_schema.md)
 
 <a href=./planning_schema.md>
 s: do you want to make an empty list at the top and then we can add
@@ -175,7 +175,7 @@ s: so like, for 
 
 y: var number
 
-s: yeah. oh actually maybe we need to use a [for loop with an i because we want to see if](./planning_schema.md, ../hetero_explanation_schema.md)
+s: yeah. oh actually maybe we need to use a [for loop with an i because we want to see if](./planning_schema.md)
 
 y: oh, yeah, that's right
 

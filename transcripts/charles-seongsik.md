@@ -716,11 +716,11 @@ B: [so we'll have less than target, we'll have another array that says index, an
 A: no repeat
 
 <a href=./planning_schema.md>
-B: [so we need to, we have to do two things right, we have to return the index of the nubmers, and we also have to find if the number is equal to ...](../hetero_explanation_schema.md)
+B: so we need to, we have to do two things right, we have to return the index of the nubmers, and we also have to find if the number is equal to ...
 A: right
-B: [so to check this we are going to add nums i to less than target, *pause* so these are all the numbers less than target, and then, for this we'll have all the nubmers, in this case we'll have 7 and 2 right and our other one, array index , we'll append i into it and that is the the index of these numbers. So first 7 will go in right?](../hetero_explanation_schema.md)
+B: so to check this we are going to add nums i to less than target, *pause* so these are all the numbers less than target, and then, for this we'll have all the nubmers, in this case we'll have 7 and 2 right and our other one, array index , we'll append i into it and that is the the index of these numbers. So first 7 will go in right
 A: yea
-B: [so less than target, the first element will be 7 adn the first element of var index would be](../hetero_explanation_schema.md)
+B: so less than target, the first element will be 7 adn the first element of var index would be
 </a>
 
 A: [no, um, shit, the index numbers are going to change though. For example if the numbers are 11 15 7 2 we don't care about the 11 and 15 and we are going to put 7 and 2 in there right?](../hetero_explanation_schema.md)
