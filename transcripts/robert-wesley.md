@@ -79,7 +79,7 @@ j: you can't fill out the body of the if statement
 
 1: that's okay, so it looks like the average only... yeah so we do need to get rid of non-passing scores. that's not that bad though, we can just put the i plus... hm
 
-<a href=./planning)schema.md>
+<a href=./planning_schema.md>
 2: we need another variable
 1: we do need another variable. what if we
 </a>

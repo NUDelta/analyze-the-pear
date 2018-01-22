@@ -48,7 +48,7 @@ for (let directory of directories) {
                 }
             }
         }
-        totalDuration += if endTimeMS(endTimeMS - startTimeMS)/1000;
+        totalDuration += (endTimeMS - startTimeMS)/1000;
         totalNumTimesRunCode += numTimesRunCode;
 
         console.log(`Game lasted ${ chalk.green((endTimeMS - startTimeMS)/1000 + ' seconds') }.`);
