@@ -498,7 +498,7 @@ s: like how to do this thing in javascript
 
 y: like specific syntax things
 
-s: and then like she was like also searching things, i think, on the side a little. like if we really didn't know something we would both be on a new tab searching things. but i guess i would be primarily looking up syntax and stuff
+s: [and then like she was like also searching things, i think, on the side a little. like if we really didn't know something we would both be on a new tab searching things. but i guess i would be primarily looking up syntax and stuff](shared cognitive load)
 
 j: can you talk about your process for solving the first problem?
 
@@ -512,6 +512,7 @@ s: divided by the length of the thing
 
 j: so how did you come to that solution
 
+<a href="lack of planning">
 y: we didn't really think about how it works, we just get started and then figure out, okay we need this sum variable—
 
 s: —and like we'll probably need a for loop so we started making the for loop, and then we're like we'll need to declare a variable at the top because for the solution or whatever
@@ -521,6 +522,7 @@ y: yeah and so we kind of just add stuff we need as we go instead of declaring e
 j: and how did you figure out what you needed?
 
 s: i guess as we went we realized what we were missing, like when we're going through the array we're like we need some way of storing the numbers we're adding so we went back to the top and added a solution like empty variable so we can append to that one
+</a>
 
 a: so what about for the second, what was your process for completing the second task?
 

@@ -998,18 +998,43 @@ B: i dont think we have to change
 
 32:45
 
-
-
-
-What did you think
-It's cool that we are more confined in our choices, but that also helps us guide in a way. Its confining so it restricts our options, but in a way that helps us move in the righ tdirection
-
-
-Cause normally we wouldnt right this out we would try it out and get hte output and move on from there. Since we had such a limited amount of cards we would plan everything out perfetly and go on from there
-
-
-
-
-
-
-**didnt finish transcribing question answer**
+a: i just wanted to ask first, do you guys know each other?
+1: yes 
+a: have you guys worked together before
+2: not really
+1: no
+g: so what'd you think of the overall experience?
+2: well it's cool that we are, i don't know, that we're confined in our choices, but that also helps us guide us in a way, like it's confining, so it restricts our options, but in a way that just helps us move in the right direction
+1: because normally, we wouldn't like write this out, we would just like try it out, and we'd get the output and see what's wrong and change it, go on from there. but since we have such like a limited amount of cards we have to think everything out perfectly before and start coding.
+g: were you keeping track of the amount of cards you had, in general?
+1: more than the amount of cards, i was keeping track of what cards i had left. so for example i had one for loop and he had two, so we knew we had to finish everything in less than, at max three for loops. none of us had an array, and after i discarded one i had one array, but we couldn't risk using two or more arrays because even if we discarded more cards, we didn't know if we would get the right card. and looking at our cards, we obviously wouldn't use a hash table, we wouldn't use switch, so we had to be smart about which cards to discard. 
+g: did you guys know how many cards you had left in the stack before you submitted the code?
+2: i had three, think
+g: not in your hand, but in the stack. do you know how many cards were in the stack?
+2: over here?
+g: yeah, at the end of the 
+2: i think there were like three or something like that
+g: okay. so can you just walk us through, from the beginning of the first problem, and just talk to us about what you guys did and your thoughts on each of the parts, just from the first problem up to now
+2: so it was about first eliminating the numbers that were less than seventy, and then getting the average of the numbers that were left. so how did we do that? so basically we used a for loop to look at each element, and then made a sum variable to keep on adding the numbers that were left behind, or that were
+1: greater than seventy
+2: greater than seventy, in that case, and had a different variable, counter, to track how many numbers we were adding so we could easily get the average afterwards. 
+g: and did you come up with that right away? or how did you get to that point?
+1: so we were talking to each other about what to do, but i feel like it would have been better if we used something like a writing thing earlier on, because we were talking to each other, but i feel like we were getting a bit confused in the beginning, because we were just talking and it's hard to keep track of what I'm saying. so i think it would have been better if we had wrote something like there. also if we had like a separate window that has like a testing window, we could probably of use instead of or as the whiteboard. like a separate window where we don't have to use the cards just to test, so we could like test it there and we could write down pseudocode like that, and like that's what we want to do so let's add this code into this window or something like that. like if we could do that from the beginning, i feel like it would have been much better.
+g: did you guys get into any conflicts? and if so how did you resolve them?
+1: i don't think we got into any conflicts
+2: well working in a pair communicating really, it's just a useful way of pointing out the small errors that we make. it's really useful. the other thing that i really liked about this is that it forces you to slow down and really think about your step before you take it
+g: and why do you think that's useful?
+2: as novice programmers, it's just better to get the big picture in before stepping up. because we used dr racket for EECS 111, which is the first programming course we take here, and with that, it's really easy to just run the code every time you write a line. and although i found that helpful, because I'm not skilled to be able to think about this big picture, at the same time i don't think it's helping those students develop the skills of creating a big program. but this really does because you have to first have the picture, like know what you're going to do in each step, and then you'll have most success once you know what you're going to do, and then use the cards. because you only have the limited options. and then end turns
+1: and so once you have like the big picture set out, i feel like it's easier to debug. because you would just back to your like pseudocode, your logic code and be like, what's wrong from there, and you could just go down line by line and notice oh, it's probably this line that's causing the error, so let's just try changing that instead of like writing like a [unintelligible] code that we don't really understand. 
+g: so you're talking about how you usually code and testing each line, where do you think you learned that strategy and why do you still use it, out of curiosity?
+2: well, the thing about coding is that when you mess up in one part, everything else is just, is done. so i just wanted to avoid that entirely, just so that I'm confident that whatever i have so far is gonna give me the result that I'm expecting. so that's what i use, usually. this, well my way of coding makes me test like different methods as i go, and then this is a completely different way of approaching the problem, which is something that i enjoyed actually. it's definitely, it takes time to get used to and plan out your strategy
+g: on a bit of a different note, it took a while to learn. we're still trying to figure out the best way to teach this system, because it is pretty different. what were the parts that you felt worked for you while learning how to use cards, how to submit lines, etc. when did you feel like you got it and what helped you learn how to use this system in general?
+1: for me, it was in this problem because first neither of us had the array card and we were like okay how do we approach this, how do we get the array card. and that's when we noticed like we had to be smart about which cards to discard to pick which cards we used. 
+g: what about the video, vs. doing the example, vs. like just going right into it? like at what point did you think you understood the game?
+1: it was the example for me. because i didn't really understand the [unintelligible]
+g: would there be anything that you would change about this?
+2: what sort of level of programming students are you thinking about/
+a: so we're not actually testing your skill level, we're testing at how the system interacts. but we're looking at people who have taken several programming classes but not like ten or eight. so like earlier on in the college programming process
+[some talking from armaan and garrett]...
+2: yeah, the syntax really just helps
+[some more talking from armaan and garrett]
