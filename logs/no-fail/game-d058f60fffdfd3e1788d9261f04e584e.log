@@ -1,0 +1,3 @@
+{"level":"info","timestamp":1517608961365,"sender":"CLIENT","playerId":"7b57aabb19adf701fb18511493cccb1c","name":null,"data":{"type":"WS_ACTION","action":{"type":"PLAYERS_REGISTER_PLAYER","name":"a"}}}
+{"level":"info","timestamp":1517608961367,"sender":"SERVER","playerId":"7b57aabb19adf701fb18511493cccb1c","data":"{\"type\":\"WS_ACTION\",\"action\":{\"type\":\"PLAYERS_REGISTER_PLAYER\",\"player\":{\"name\":\"a\",\"id\":\"7b57aabb19adf701fb18511493cccb1c\"}}}"}
+{"level":"info","timestamp":1517608961368,"sender":"SERVER","playerId":"7b57aabb19adf701fb18511493cccb1c","data":"{\"type\":\"WS_ACTION\",\"action\":{\"type\":\"ME_SET_INFO\",\"name\":\"a\",\"id\":\"7b57aabb19adf701fb18511493cccb1c\"}}"}
