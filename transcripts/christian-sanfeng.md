@@ -35,13 +35,19 @@
 
 1: [then return answer](./planning_schema.md)
 
+~RUNS CODE FOR AVERAGE PASSING SCORE #1
+
 2: oh did average it
 
 1: yeah, [return the average, that's what I'm doing now](./planning_schema.md)
 
 2: oh, okay. yeah, so scores dot length. i think [unintelligible]. maybe it's the plus plus. i can just do plus equals one. that's a syntax error
 
+~RUNS CODE FOR AVERAGE PASSING SCORE #2
+
 1: oh, for var
+
+~RUNS CODE FOR AVERAGE PASSING SCORE #3
 
 2: okay, so there's one edge case where there's nothing here right
 
@@ -49,14 +55,23 @@
 
 2: oh if there are no passing scores. oh okay i see. oh wait. passing scores dot. so it's an edge case over here. 
 
+~RUNS CODE FOR AVERAGE PASSING SCORE #4
+
 1: oh it's not an array anymore
 
-2: oh whoops. so scores. or we could just do number of passes
+2: oh whoops.
+
+~RUNS CODE FOR AVERAGE PASSING SCORE #5
+
+2: so scores. or we could just do number of passes
+
+~RUNS CODE FOR AVERAGE PASSING SCORE #6
 
 1: we just passed all the tests 
 
 2: [unintelligible] submit. [unintelligible]. alright so array two sum, do you want to do this one
 
+SUBMITS CODE FOR AVERAGE PASSING SCORE
 1: yeah, sure. 
 
 2: this is like a leetcode question

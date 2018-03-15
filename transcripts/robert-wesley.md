@@ -126,6 +126,8 @@ j: you can't fill out the body of the if statement
 
 2: okay
 
+RUNS CODE FOR AVERAGE PASSING SCORE #1
+
 1: we can test it though. five out of seven tests pass
 
 2: oh, so if none of them we want to return a NaN? wait no, what
@@ -203,6 +205,9 @@ j: you can submit
 2: oh, right
 
 1: [at the end of the while loop. then we just need a return statement. alright. alright, return, just return, right i could have said zero. okay so have some tests pass ill submit. i think that should be it](./planning_schema.md)
+
+RUNS CODE FOR AVERAGE PASSING SCORE #2
+SUBMITS CODE FOR AVERAGE PASSING SCORE
 
 15:26 
 

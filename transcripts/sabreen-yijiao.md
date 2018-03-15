@@ -86,6 +86,8 @@ s: oh, there's no parentheses
 
 y: okay, and [then you just return sum average. okay](./planning_schema.md)
 
+RUNS CODE FOR AVERAGE PASSING SCORE #1
+
 s: 0 out of 7 tests passed. oh got not a number. maybe, do you want to console log the sum average or the sum or something
 
 y: just like this?
@@ -98,7 +100,11 @@ s: do you want to console log score inside here?
 
 y: yeah, okay. console...
 
-s: dot log. let's see. um, the console's only printing.. maybe the score list is empty. what's the first—oh, some of these should be in the...
+s: dot log. let's see. 
+
+RUNS CODE FOR AVERAGE PASSING SCORE #2
+
+s: um, the console's only printing.. maybe the score list is empty. what's the first—oh, some of these should be in the...
 
 y: yeah, yeah, yeah
 
@@ -123,6 +129,8 @@ s: [and then the same thing too for the second one.](./planning_schema.md)
 y: yeah yeah yeah
 
 s: and then let's see if that returns the array. five pass
+
+RUNS CODE FOR AVERAGE PASSING SCORE #2-7 (runs 2-6 were within this^^ snippet)
 
 y: oh, so we didn't think about this corner case
 

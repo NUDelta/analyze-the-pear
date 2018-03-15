@@ -441,6 +441,7 @@ B: oh, ok, should i run it?
 
 A; let's try
 
+RUNS CODE FOR AVERAGE PASSING SCORE #1
 
 B: ahh
 
@@ -483,6 +484,8 @@ A: oh one more
 B: return 0, submit action and run it
 </a>
 
+RUNS CODE FOR AVERAGE PASSING SCORE #2
+
 A: alright it worked
 
 
@@ -491,6 +494,7 @@ B: after we do the challenge do we submit right?
 
 Arm: yea so if you feel like you are done you can submit code and go on to the next one
 
+SUBMITS CODE FOR AVERAGE PASSING SCORE
 
 A: ok, so we did, average passing score
 
