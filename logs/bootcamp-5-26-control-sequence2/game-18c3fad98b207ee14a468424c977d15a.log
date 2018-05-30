@@ -1,0 +1,3 @@
+{"level":"info","timestamp":1527368574656,"sender":"CLIENT","playerId":"5846d3c8475dd6d22981e9b1000293db","name":null,"data":{"type":"WS_ACTION","action":{"type":"PLAYERS_REGISTER_PLAYER","name":"Nikhil Patel"}}}
+{"level":"info","timestamp":1527368574658,"sender":"SERVER","playerId":"5846d3c8475dd6d22981e9b1000293db","data":"{\"type\":\"WS_ACTION\",\"action\":{\"type\":\"PLAYERS_REGISTER_PLAYER\",\"player\":{\"name\":\"Nikhil Patel\",\"id\":\"5846d3c8475dd6d22981e9b1000293db\"}}}"}
+{"level":"info","timestamp":1527368574659,"sender":"SERVER","playerId":"5846d3c8475dd6d22981e9b1000293db","data":"{\"type\":\"WS_ACTION\",\"action\":{\"type\":\"ME_SET_INFO\",\"name\":\"Nikhil Patel\",\"id\":\"5846d3c8475dd6d22981e9b1000293db\"}}"}

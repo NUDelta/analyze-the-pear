@@ -1,0 +1,3 @@
+{"level":"info","timestamp":1527363236517,"sender":"CLIENT","playerId":"f47b0c365c9c34dd4155f491706b8d24","name":null,"data":{"type":"WS_ACTION","action":{"type":"PLAYERS_REGISTER_PLAYER","name":"Julian"}}}
+{"level":"info","timestamp":1527363236519,"sender":"SERVER","playerId":"f47b0c365c9c34dd4155f491706b8d24","data":"{\"type\":\"WS_ACTION\",\"action\":{\"type\":\"PLAYERS_REGISTER_PLAYER\",\"player\":{\"name\":\"Julian\",\"id\":\"f47b0c365c9c34dd4155f491706b8d24\"}}}"}
+{"level":"info","timestamp":1527363236521,"sender":"SERVER","playerId":"f47b0c365c9c34dd4155f491706b8d24","data":"{\"type\":\"WS_ACTION\",\"action\":{\"type\":\"ME_SET_INFO\",\"name\":\"Julian\",\"id\":\"f47b0c365c9c34dd4155f491706b8d24\"}}"}

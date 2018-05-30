@@ -1,0 +1,6 @@
+{"level":"info","timestamp":1527368609435,"sender":"CLIENT","playerId":"8df0614535914f8a4d36dfda37887e67","name":null,"data":{"type":"WS_ACTION","action":{"type":"PLAYERS_REGISTER_PLAYER","name":"PS41"}}}
+{"level":"info","timestamp":1527368609435,"sender":"SERVER","playerId":"8df0614535914f8a4d36dfda37887e67","data":"{\"type\":\"WS_ACTION\",\"action\":{\"type\":\"PLAYERS_REGISTER_PLAYER\",\"player\":{\"name\":\"PS41\",\"id\":\"8df0614535914f8a4d36dfda37887e67\"}}}"}
+{"level":"info","timestamp":1527368609435,"sender":"SERVER","playerId":"8df0614535914f8a4d36dfda37887e67","data":"{\"type\":\"WS_ACTION\",\"action\":{\"type\":\"ME_SET_INFO\",\"name\":\"PS41\",\"id\":\"8df0614535914f8a4d36dfda37887e67\"}}"}
+{"level":"info","timestamp":1527368610280,"sender":"CLIENT","playerId":"8df0614535914f8a4d36dfda37887e67","name":null,"data":{"type":"WS_ACTION","action":{"type":"GAME_START"}}}
+{"level":"info","timestamp":1527368610280,"sender":"SERVER","playerId":"8df0614535914f8a4d36dfda37887e67","data":"{\"type\":\"WS_ACTION\",\"action\":{\"type\":\"GAME_START\"}}"}
+{"level":"info","timestamp":1527368640384,"sender":"CLIENT","playerId":"8df0614535914f8a4d36dfda37887e67","name":null,"data":{"type":"WS_COMMAND","command":{"type":"COMMAND_LOG_CODE","fn":"(function doubleList(arr){\n})","constructor":"ExamplePrompt"}}}

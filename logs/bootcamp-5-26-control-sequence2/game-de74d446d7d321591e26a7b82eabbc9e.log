@@ -1,0 +1,6 @@
+{"level":"info","timestamp":1527368504747,"sender":"CLIENT","playerId":"47e22559210ee56c9c0672be301cc397","name":null,"data":{"type":"WS_ACTION","action":{"type":"PLAYERS_REGISTER_PLAYER","name":"PS37"}}}
+{"level":"info","timestamp":1527368504749,"sender":"SERVER","playerId":"47e22559210ee56c9c0672be301cc397","data":"{\"type\":\"WS_ACTION\",\"action\":{\"type\":\"PLAYERS_REGISTER_PLAYER\",\"player\":{\"name\":\"PS37\",\"id\":\"47e22559210ee56c9c0672be301cc397\"}}}"}
+{"level":"info","timestamp":1527368504749,"sender":"SERVER","playerId":"47e22559210ee56c9c0672be301cc397","data":"{\"type\":\"WS_ACTION\",\"action\":{\"type\":\"ME_SET_INFO\",\"name\":\"PS37\",\"id\":\"47e22559210ee56c9c0672be301cc397\"}}"}
+{"level":"info","timestamp":1527368506181,"sender":"CLIENT","playerId":"47e22559210ee56c9c0672be301cc397","name":null,"data":{"type":"WS_ACTION","action":{"type":"GAME_START"}}}
+{"level":"info","timestamp":1527368506182,"sender":"SERVER","playerId":"47e22559210ee56c9c0672be301cc397","data":"{\"type\":\"WS_ACTION\",\"action\":{\"type\":\"GAME_START\"}}"}
+{"level":"info","timestamp":1527368536253,"sender":"CLIENT","playerId":"47e22559210ee56c9c0672be301cc397","name":null,"data":{"type":"WS_COMMAND","command":{"type":"COMMAND_LOG_CODE","fn":"(function doubleList(arr){\n})","constructor":"ExamplePrompt"}}}
