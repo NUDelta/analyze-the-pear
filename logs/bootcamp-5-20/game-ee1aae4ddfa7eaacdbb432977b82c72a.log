@@ -1,0 +1,3 @@
+{"level":"info","timestamp":1526845309260,"sender":"CLIENT","playerId":"ab726d69edf29c6b7176c2c652bc0e14","name":null,"data":{"type":"WS_ACTION","action":{"type":"PLAYERS_REGISTER_PLAYER","name":"PS14"}}}
+{"level":"info","timestamp":1526845309261,"sender":"SERVER","playerId":"ab726d69edf29c6b7176c2c652bc0e14","data":"{\"type\":\"WS_ACTION\",\"action\":{\"type\":\"PLAYERS_REGISTER_PLAYER\",\"player\":{\"name\":\"PS14\",\"id\":\"ab726d69edf29c6b7176c2c652bc0e14\"}}}"}
+{"level":"info","timestamp":1526845309261,"sender":"SERVER","playerId":"ab726d69edf29c6b7176c2c652bc0e14","data":"{\"type\":\"WS_ACTION\",\"action\":{\"type\":\"ME_SET_INFO\",\"name\":\"PS14\",\"id\":\"ab726d69edf29c6b7176c2c652bc0e14\"}}"}

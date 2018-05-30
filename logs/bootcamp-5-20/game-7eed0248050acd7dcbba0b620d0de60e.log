@@ -1,0 +1,5 @@
+{"level":"info","timestamp":1526768519227,"sender":"CLIENT","playerId":"af61103522da8903019b650628387661","name":null,"data":{"type":"WS_ACTION","action":{"type":"PLAYERS_REGISTER_PLAYER","name":"awef"}}}
+{"level":"info","timestamp":1526768519228,"sender":"SERVER","playerId":"af61103522da8903019b650628387661","data":"{\"type\":\"WS_ACTION\",\"action\":{\"type\":\"PLAYERS_REGISTER_PLAYER\",\"player\":{\"name\":\"awef\",\"id\":\"af61103522da8903019b650628387661\"}}}"}
+{"level":"info","timestamp":1526768519229,"sender":"SERVER","playerId":"af61103522da8903019b650628387661","data":"{\"type\":\"WS_ACTION\",\"action\":{\"type\":\"ME_SET_INFO\",\"name\":\"awef\",\"id\":\"af61103522da8903019b650628387661\"}}"}
+{"level":"info","timestamp":1526768519847,"sender":"CLIENT","playerId":"af61103522da8903019b650628387661","name":null,"data":{"type":"WS_ACTION","action":{"type":"GAME_START"}}}
+{"level":"info","timestamp":1526768519848,"sender":"SERVER","playerId":"af61103522da8903019b650628387661","data":"{\"type\":\"WS_ACTION\",\"action\":{\"type\":\"GAME_START\"}}"}

@@ -1,0 +1,5 @@
+{"level":"info","timestamp":1526844474677,"sender":"CLIENT","playerId":"5327c28f22874dd1ac1569f9be084ae2","name":null,"data":{"type":"WS_ACTION","action":{"type":"PLAYERS_REGISTER_PLAYER","name":"PS13"}}}
+{"level":"info","timestamp":1526844474677,"sender":"SERVER","playerId":"5327c28f22874dd1ac1569f9be084ae2","data":"{\"type\":\"WS_ACTION\",\"action\":{\"type\":\"PLAYERS_REGISTER_PLAYER\",\"player\":{\"name\":\"PS13\",\"id\":\"5327c28f22874dd1ac1569f9be084ae2\"}}}"}
+{"level":"info","timestamp":1526844474677,"sender":"SERVER","playerId":"5327c28f22874dd1ac1569f9be084ae2","data":"{\"type\":\"WS_ACTION\",\"action\":{\"type\":\"ME_SET_INFO\",\"name\":\"PS13\",\"id\":\"5327c28f22874dd1ac1569f9be084ae2\"}}"}
+{"level":"info","timestamp":1526844479903,"sender":"CLIENT","playerId":"5327c28f22874dd1ac1569f9be084ae2","name":null,"data":{"type":"WS_ACTION","action":{"type":"GAME_START"}}}
+{"level":"info","timestamp":1526844479903,"sender":"SERVER","playerId":"5327c28f22874dd1ac1569f9be084ae2","data":"{\"type\":\"WS_ACTION\",\"action\":{\"type\":\"GAME_START\"}}"}

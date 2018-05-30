@@ -1,0 +1,4 @@
+{"level":"info","timestamp":1526845344281,"sender":"CLIENT","playerId":"47703972c86eab67330c472f6816d243","name":null,"data":{"type":"WS_ACTION","action":{"type":"PLAYERS_REGISTER_PLAYER","name":""}}}
+{"level":"info","timestamp":1526845344282,"sender":"SERVER","playerId":"df8ac09a8d740d8b42f8f304043f72a2","data":"{\"type\":\"WS_ACTION\",\"action\":{\"type\":\"PLAYERS_REGISTER_PLAYER\",\"player\":{\"name\":\"\",\"id\":\"47703972c86eab67330c472f6816d243\"}}}"}
+{"level":"info","timestamp":1526845344282,"sender":"SERVER","playerId":"47703972c86eab67330c472f6816d243","data":"{\"type\":\"WS_ACTION\",\"action\":{\"type\":\"PLAYERS_REGISTER_PLAYER\",\"player\":{\"name\":\"\",\"id\":\"47703972c86eab67330c472f6816d243\"}}}"}
+{"level":"info","timestamp":1526845344282,"sender":"SERVER","playerId":"47703972c86eab67330c472f6816d243","data":"{\"type\":\"WS_ACTION\",\"action\":{\"type\":\"ME_SET_INFO\",\"name\":\"\",\"id\":\"47703972c86eab67330c472f6816d243\"}}"}
